@@ -76,10 +76,10 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
         <h1>Login to Crust Corner</h1>
         <form method="post "id="loginForm">
             <label for="username">Username or Email:</label>
-            <input type="text" id="username" name="username" required>
+            <input type="email" id="em-auth" name="em-auth" value="<?= $email; ?>" required>
 
             <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
+            <input type="password" id="pass-auth" name="pass-auth" required>
 
             <button type="submit" id="loginBtn">Login</button>
             <a href="./index.php">
