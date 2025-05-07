@@ -15,6 +15,7 @@
         <li><a href="home.html">Home</a></li>
         <li><a href="pizza-section.html">Pizza Section</a></li>
         <li><a href="settings.html">Settings</a></li>
+        <li><a href="./logout.php">Log Out</a></li>
       </ul>
     </nav>
   </header>
