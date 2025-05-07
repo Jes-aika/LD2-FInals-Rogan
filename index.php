@@ -107,7 +107,7 @@ if($authenticated){
 } else {
 ?>
 
-
+<html>
 <head>
   <title>User Registration</title>
   <link rel="icon" type="image/x-icon" href="Ham and Cheese Pizza.jpg">
