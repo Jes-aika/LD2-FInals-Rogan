@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizza Section</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="Ham and Cheese Pizza.jpg">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Crust Corner</div>
+      <ul class="nav-links">
+        <li><a href="home.html">Home</a></li>
+        <!-- <li><a href="view-cart.html">View Cart</a></li>--->
+        <li><a href="settings.html">Settings</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!--<main>
+    <section>
+      <h1>Pizza Section</h1>
+      <p>Customize your pizza by choosing from the options below:</p>
+      <ul class="submenu">
+        <li>Size</li>
+        <li>Sauce</li>
+        <li>Crust</li>
+        <li>Topping</li>
+      </ul>
+    </section>
+  </main>-->
+
+  <main>
+    <section>
+      <h1>Pizza Section</h1>
+      <h3>Customize your pizza by choosing from the options below:</h3>
+      <h3>Size:</h3>  
+     <input type = "radio" id="small" name="pizzaSize" value="Small">
+     <label for="small"> Small</label>
+     <input type = "radio" id="medium" name="pizzaSize" value="Medium">
+     <label for="medium"> Meduim</label>
+     <input type = "radio" id="large" name="pizzaSize" value="Large">
+     <label for="large"> Large</label>
+    
+     <h3>Sauce:</h3>
+     <input type = "radio" id="tomato" name="pizzaSauce" value="Tomato">
+     <label for="tomato"> Tomato Sauce</label>
+     <input type = "radio" id="bbq" name="pizzaSauce" value="BBQ">
+     <label for="bbq">BBQ Sauce </label>
+     <input type = "radio" id="alfredo" name="pizzaSauce" value="Alfredo">
+     <label for="alfredo"> Alfredo Sauce</label>
+     <input type = "radio" id="pesto" name="pizzaSauce" value="Pesto">
+     <label for="pesto">Pesto Sauce </label>
+
+     <h3>Crust:</h3>
+     <input type = "radio" id="thin" name="pizzaCrust" value="Thin">
+     <label for="thin"> Thin Crust</label>
+     <input type = "radio" id="neapolitan" name="pizzaCrust" value="Neapolitan">
+     <label for="neapolitan"> Neapolitan Crust</label>
+     <input type = "radio" id="handtossed" name="pizzaCrust" value="Handtossed">
+     <label for="handtossed"> Hand tossed</label>
+     
+     <h3>Topping:</h3>
+     <input type = "radio" id="pepperoni" name="pizzaTopping" value="Pepperoni">
+     <label for="pepperoni">Pepperoni</label>
+     <input type = "radio" id="sausage" name="pizzaTopping" value="Sausage">
+     <label for="sausage">Sausage</label>
+     <input type = "radio" id="bacon" name="pizzaTopping" value="Bacon">
+     <label for="bacon">Bacon </label>
+     <input type = "radio" id="ham" name="pizzaTopping" value="Ham">
+     <label for="ham"> Ham</label>
+     <input type = "radio" id="chicken" name="pizzaTopping" value="Chicken">
+     <label for="chicken"> Chicken</label>
+     
+    </section>
+  </main>
+
+  <button>Confirm Order</button>
+
+  <div class = "selection">
+    <div class="product-container">
+      <div class="product">
+          <div class="product-image">
+              <img src="pepperoni.jpg" alt="Pepperoni Pizza">
+          </div>
+          <div class="product-description">
+              <h2>Pepperoni Pizza</h2>
+              <p>It's a classic combination of tomato sauce, cheese, and pepperoni that has been around for decades.</p>
+              <p class="product-price">₱180.00</p>
+              <div class="product-buttons">
+                  <button class="button">Deliver</button>
+                  <button class="button">Buy</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="product-container">
+    <div class="product">
+        <div class="product-image">
+            <img src="hawaiian.jpg" alt="Hawaiian Pizza">
+        </div>
+        <div class="product-description">
+            <h2>Hawaiian Pizza</h2>
+            <p>Hawaiian pizza is a pizza topped with pineapple, tomato sauce, cheese, and either ham or bacon.<br> The sweet pineapple complements the savory ham and cheese.</p>
+            <p class="product-price">₱179.00</p>
+            <div class="product-buttons">
+                <button class="button">Deliver</button>
+                <button class="button">Buy</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="product-container">
+  <div class="product">
+      <div class="product-image">
+          <img src="Ham and Cheese Pizza.jpg" alt="Ham and Cheese Pizza">
+      </div>
+      <div class="product-description">
+          <h2>Ham and Cheese Pizza</h2>
+          <p>A classic pizza variety topped with tomato sauce, melted mozzarella cheese, and slices of cooked ham, <br>considered a simple and popular choice due to its straightforward flavor combination; essentially,<br> a pizza with just cheese and ham as the main toppings. </p>
+          <p class="product-price">₱179.00</p>
+          <div class="product-buttons">
+              <button class="button">Deliver</button>
+              <button class="button">Buy</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="product-container">
+  <div class="product">
+      <div class="product-image">
+          <img src="Veggie.jpg" alt="Veggie pizza">
+      </div>
+      <div class="product-description">
+          <h2>Veggie Pizza</h2>
+          <p>This veggie pizza is made from crescent dough and a creamy garlicky cheese spread loaded with fresh, crunchy veggies for an easy take on a favorite. </p>
+          <p class="product-price">₱179.00</p>
+          <div class="product-buttons">
+              <button class="button">Deliver</button>
+              <button class="button">Buy</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+<div class="product-container">
+  <div class="product">
+      <div class="product-image">
+          <img src="BBQ Chicken.jpg" alt="BBQ Chicken">
+      </div>
+      <div class="product-description">
+          <h2>BBQ Chicken Pizza</h2>
+          <p>This BQQ Chicken Pizza is topped with chicken, red onions, cilantro, and Colby-Monterey Jack cheese for an extra flavorful pizza.
+              This barbeque chicken pizza has a tangy kick from the spicy barbeque sauce and pepperoncini peppers.
+          </p>
+          <p class="product-price">₱179.00</p>
+          <div class="product-buttons">
+              <button class="button">Deliver</button>
+              <button class="button">Buy</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="product-container">
+  <div class="product">
+      <div class="product-image">
+          <img src="Margherita.jpg" alt="Margherita pizza">
+      </div>
+      <div class="product-description">
+          <h2>Margherita Pizza</h2>
+          <p>The Margherita pizza is perhaps the most classic of all pizzas. Originating in Naples, Italy, this pizza is made with just three simple ingredients: tomato sauce, mozzarella cheese, and fresh basil.
+               It's the simplicity of the Margherita that makes it so delicious, and it remains a favorite among pizza lovers worldwide. </p>
+          <p class="product-price">₱179.00</p>
+          <div class="product-buttons">
+              <button class="button">Deliver</button>
+              <button class="button">Buy</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="product-container">
+  <div class="product">
+      <div class="product-image">
+          <img src="mushroom.jpg" alt="Chessy Mushroom Pizza">
+      </div>
+      <div class="product-description">
+          <h2>Chessy Mushroom Pizza</h2>
+          <p>This delicious chessy mushroom pizza is smothered in sautéed mushrooms, onions and garlic, slivers of lacinato kale and layers of mozzarella and fresh-grated parmesan.
+          </p>
+          <p class="product-price">₱179.00</p>
+          <div class="product-buttons">
+              <button class="button">Deliver</button>
+              <button class="button">Buy</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="product-container">
+  <div class="product">
+      <div class="product-image">
+          <img src="sicilian.jpg" alt="Sicilian Pizza">
+      </div>
+      <div class="product-description">
+          <h2>Sicilian Pizza</h2>
+          <p>Sicilian pizza has a fluffy, spongy bread base topped with a meatless sauce made from tomatoes, onions, herbs, and anchovies, which is covered with breadcrumbs and an optional grating of hard cheese.
+          </p>
+          <p class="product-price">₱179.00</p>
+          <div class="product-buttons">
+              <button class="button">Deliver</button>
+              <button class="button">Buy</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<footer>Crust Corner where every slice feels like home!</footer>
+</body>
+</html>
