@@ -97,7 +97,7 @@ IF($_SERVER['REQUEST_METHOD'] == 'POST'){
     $_SESSION["email"] = $email;
     $_SESSION["created_at"] = $created_at;
 
-    header("Location: menu.php");
+    header("Location: home.php");
     exit();
     }
 }
